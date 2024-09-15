@@ -1,0 +1,16 @@
+.feed-container {
+    display: flex;
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between items */
+    padding: 10px; /* Padding around the container */
+    margin-top: 6vh;
+    border: #ccc;
+}
+
+.feed-item {
+    flex: 1; /* Make items take up equal space */
+    border: 1px solid #ccc; /* Optional: border around each item */
+    padding: 10px; /* Optional: padding inside each item */
+    border-radius: 8px; /* Optional: rounded corners */
+}

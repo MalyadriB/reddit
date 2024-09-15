@@ -1,0 +1,48 @@
+.carousel-wrapper {
+    position: relative;  /* Make the container relatively positioned for absolute positioning of the buttons */
+    width: 100%;  /* Adjust width as needed */
+    margin: 0 auto;  /* Center the wrapper horizontally */
+  }
+  
+  .carousel-container {
+    display: flex;
+    align-items: center;  /* Center images vertically */
+    overflow: hidden;  /* Hide the scrollbar */
+    height: 200px;  /* Adjust height as needed */
+    box-sizing: border-box;  /* Include padding and border in the element's total width and height */
+    position: relative;  /* Position for absolute positioning of buttons */
+  }
+  
+  .carousel-slide {
+    flex: 0 0 30%;  /* Each image takes 30% of the container's width */
+    margin-right: 10px;  /* Spacing between images */
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .arrow {
+    position: absolute;  /* Absolute positioning within the carousel container */
+    top: 50%;  /* Center vertically */
+    transform: translateY(-50%);  /* Offset to center vertically */
+    background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background for better visibility */
+    color: #fff;  /* White color for the arrow */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;  /* Ensure buttons are above the carousel */
+    font-size: 24px;  /* Adjust font size if needed */
+  }
+  
+  .arrow-left {
+    left: 10px;  /* Position from the left side of the carousel container */
+  }
+  
+  .arrow-right {
+    right: 10px;  /* Position from the right side of the carousel container */
+  }
+  
