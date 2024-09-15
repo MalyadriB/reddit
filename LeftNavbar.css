@@ -1,0 +1,106 @@
+.left-navbar {
+    display: flex;
+    flex-direction: column;
+    width: 250px; /* Adjust the width as needed */
+    padding: 5px 20px; /* Adjust padding as needed */
+    background-color: #ffffff; /* Background color */
+    border-right: 1px solid #ddd; /* Optional right border */
+    height: 100vh; /* Full height of the viewport */
+    box-shadow: 2px 0 5px rgba(196, 196, 196, 0.1); /* Optional shadow */
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin: 10px 0; /* Space between links */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333; /* Text color */
+    font-size: 18px; /* Font size */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .nav-links a:hover {
+    background-color: #dbeaf9; /* Background color on hover */
+    color: #000; /* Text color on hover */
+  }
+  
+  .nav-icon {
+    margin-right: 8px; /* Space between the icon and the text */
+    font-size: 1.5em; /* Adjust size relative to the font size of the link */
+  }
+  
+  .accordion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .accordion-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .accordion-button:hover {
+    background-color: #dbeaf9;
+  }
+  
+  .accordion-icon {
+    margin-left: auto; 
+    font-size: 1.2em;
+  }
+  
+  .accordion-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px; 
+  }
+  
+  .accordion-content li {
+    margin: 5px 0;
+  }
+  
+  .accordion-content a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .accordion-content a:hover {
+    color: #000;
+  }
+  
+
+  .see-more-button {
+    background-color: #ffffff;
+    font-weight: 100; 
+    font-size: 12px; 
+    padding: 5px 10px; 
+   
+    border-radius: 5vw; 
+    color: #333; 
+  }
+  
+  .see-more-button:hover {
+    background-color: #d1e1ee; 
+  }
+  

@@ -1,0 +1,29 @@
+/* src/App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .left-navbar {
+    width: 250px; /* Adjust width as needed */
+  }
+  
+  .card-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Space between cards */
+    padding: 16px;
+  }
+  
+  .custom-card {
+    flex: 1 1 calc(33.333% - 16px); /* Adjust to show three cards in a row */
+    margin: 0;
+  }
+  
